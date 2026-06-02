@@ -1,0 +1,2 @@
+En la primera ruta dice "Servidor activo"
+En la segunda y tercera dice "localhost rechazó la conexión."
