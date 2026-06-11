@@ -1,0 +1,13 @@
+Cuando se envía un reporte mediante la ruta POST /reportes, la información queda almacenada temporalmente en el arreglo reportes. Luego, al consultar la ruta GET /reportes, el servidor muestra todos los reportes que han sido registrados durante la ejecución del programa.
+
+Ejemplo de respuesta:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Esto demuestra cómo una API puede guardar información en memoria y permitir su consulta mediante diferentes rutas.
